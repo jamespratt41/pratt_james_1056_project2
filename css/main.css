@@ -17,26 +17,169 @@ font-family: 'Noto Sans JP', sans-serif; */
 {
 	background-color: black;
 	height: 10px;
-	margin-bottom: 30px;
 }
 
 #siteContainer
 {
 	margin: 0 auto;
-	width: 960px;
+	width: 920px;
 	padding-left: 20px;
 	padding-right: 20px;
+	background-color: #444444;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 #mainHeader
 {
 	display: flex;
 	flex-direction: row;
+  justify-content: space-around;
+	background-color: #fada1a;
+	height: 100px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.mainTitle{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 32px;
+	margin-top: 30px;
+
+}
+
+#mainInfo{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+  justify-content: space-between;
+
+}
+
+#groupLeft{
+	display: flex;
+	flex-direction: column;
   justify-content: flex-start;
+	width: 274px;
+	margin-left: 10px;
+}
+
+.smallImage1{
+	width: 274px;
+	height: 206px;
+	border-radius: 10px;
+	border: solid 3px black;
+}
+
+.textLeft{
+	font-size: 21px;
+	font-family:  'Noto Sans JP', sans-serif;
+	color: white;
+	margin-top: 5px;
+	line-height: 25px;
+}
+#groupMiddle{
+	display: flex;
+	flex-direction: column;
+  justify-content: flex-start;
+	flex-wrap: wrap;
+	align-items: center;
+
+	width: 274px;
+}
+
+#textDivider1{
+	width: 100px;
+	height: 2px;
+	background-color: black;
+	margin-top: 80px;
+	align-self: center;
+}
+#textDivider2{
+	width: 100px;
+	height: 2px;
+	background-color: black;
+	margin-top: 20px;
+	align-self: center;
+}
+
+.textMiddle{
+	font-size: 30px;
+	font-family: 'Krub', sans-serif;
+	color: white;
+	margin-top: 10px;
+	line-height: 40px;
+	text-align: center;
+}
+
+#groupRight{
+	display: flex;
+	flex-direction: column;
+  justify-content: flex-start;
+
+	width: 274px;
+	margin-right: 10px;
+}
+
+.smallImage2{
+	width: 274px;
+	height: 206px;
+	border-radius: 10px;
+	border: solid 3px black;
+}
+
+.textRight{
+	font-size: 21px;
+	font-family:  'Noto Sans JP', sans-serif;
+	color: white;
+	margin-top: 5px;
+	line-height: 25px;
+}
+
+#banner{
+	margin-top: 20px;
+	height: 155px;
+}
+
+.bannerImage{
+	border-radius: 10px;
+	height: 155px;
+	width:920px;
+	border: solid 3px black;
+}
+
+#bottomCon{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.subTitle{
+	font-size: 25px;
+	font-family: 'Krub', sans-serif;
+	color: white;
+	line-height: 27px;
+	margin-left: 20px;
+}
+
+.bottomText{
+	font-size: 18px;
+	font-family:  'Noto Sans JP', sans-serif;
+	color: white;
+	line-height: 40px;
+}
+
+.bigFish{
+	border-radius: 10px;
+	height: 417px;
+	width: 234px;
+	margin-top: 40px;
+	border: solid 3px black;
 }
 
 #bottomBar
 {
 	background-color: black;
-	height: 10px;
+	height: 12px;
 }
